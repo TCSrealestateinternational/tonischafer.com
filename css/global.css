@@ -145,11 +145,13 @@ section { padding: var(--section-pad); }
   gap: 2rem;
 }
 .nav__logo {
-  font-family: var(--font-display);
-  font-size: 1.45rem;
-  font-weight: 700;
-  color: var(--crimson);
-  white-space: nowrap;
+  display: flex;
+  align-items: center;
+}
+.nav__logo-img {
+  height: 56px;
+  width: auto;
+  display: block;
 }
 .nav__links {
   display: flex;
